@@ -2,5 +2,6 @@
 
 for HOSTS in `cat /root/my-hosts`
 do
-	ssh $HOSTS hostname; ssh $HOSTS df -h
+	ssh $HOSTS hostname
+	ssh $HOSTS df -h
 done
