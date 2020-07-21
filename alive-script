@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for HOSTS in `cat /root/my-hosts`
+do
+	ping $HOSTS 
